@@ -6,4 +6,10 @@ class Greeting:
             raise TypeError('Please provide a valid string argument')
         return('Hello, {}'.format(name))
 
+    print('How does coverage work?')
+
+    def useless_function():
+        pass
+        
+
 

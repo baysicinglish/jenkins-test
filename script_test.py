@@ -7,3 +7,6 @@ def test_returns_input():
 def test_raises_exception_on_non_string_arguments():
     with pytest.raises(TypeError):
         Greeting.greet(9)
+
+test_returns_input()
+test_raises_exception_on_non_string_arguments()
