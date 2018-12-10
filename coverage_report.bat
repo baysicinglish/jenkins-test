@@ -4,5 +4,5 @@ pip install coverage
 coverage run script_test.py
 coverage report -m
 coverage xml -o coverage_report.xml
-coverage html -o coverage_report.html
+coverage html -d coverage
 rmvirtualenv jenkins_test
